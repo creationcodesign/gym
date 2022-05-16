@@ -11,7 +11,7 @@ export default function Navbar() {
             <NavLink to="/services" className="nav-link" activeclassname="active-link">Services</NavLink>
             <NavLink to="/membership" className="nav-link" activeclassname="active-link">Membership</NavLink>
             <NavLink to="/contact" className="nav-link" activeclassname="active-link">Contact</NavLink>
-            <NavLink to="/contact" className="nav-link" activeclassname="active-link">Sign Up</NavLink>
+            <NavLink to="/authorize" className="nav-link" activeclassname="active-link">Sign Up</NavLink>
         </nav>
     )
 }

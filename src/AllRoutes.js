@@ -16,7 +16,7 @@ export default function AllRoutes() {
             <Route path="/services" element={<Services />} />
             <Route path="/membership" element={<Membership />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/sign-up" element={<Authorize />} />
+            <Route path="/authorize" element={<Authorize />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     )
