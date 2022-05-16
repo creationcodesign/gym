@@ -7,6 +7,8 @@ import Contact from './pages/Contact'
 import Authorize from './pages/Authorize'
 import NotFound from './pages/NotFound'
 
+
+
 export default function AllRoutes() {
     return (
         <Routes>
