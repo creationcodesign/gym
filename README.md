@@ -6,7 +6,7 @@ This responsive website is built with **React JS, SCSS** and deployed on **GitHu
 
 ## Preview
 
-![project screenshot](./public/assets/screenshot.png)
+![project screenshot](./src/assets/gym-screenshot.jpg)
 
 
 ## [live demo](https://versi-on.github.io/gym/)
