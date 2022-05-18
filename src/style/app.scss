@@ -1,3 +1,5 @@
+@import './variables';
+
 .home,
 .services,
 .products,
@@ -7,4 +9,72 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+// CONTACT
+.contact-container {
+  min-height: 88vh;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    padding: 0.5rem 0;
+  }
+
+  form {
+    width: 25rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .form-control,
+    textarea {
+      max-width: 400px;
+      margin: 0.2rem 0rem;
+      padding: 0.5rem;
+      letter-spacing: 1px;
+      color: $dark-color;
+      border: 1px solid #000;
+      border-radius: 5px;
+      outline-color: $accent-color;
+    }
+  }
+
+  .send-button {
+    height: 34px;
+    max-width: 400px;
+    margin-top: 15px;
+    background-color: #f17828;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+    .btn-icon:hover {
+      transform: translate3d(0px, -29px, 0px);
+    }
+  }
+
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 300 14px 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+
+}
+
+// RESPONSIVE
+@media only screen and (max-width: 450px) {
+  .contact-container {
+    margin: 0;
+
+    form {
+      width: 17rem;
+    }
+  }
 }
