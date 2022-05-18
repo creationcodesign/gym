@@ -1,0 +1,108 @@
+@import './variables';
+
+.authorize-container {
+    max-width: 55vw;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+
+}
+
+.authorize-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+
+    .options {
+        width: 25rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+        border: 1px solid $dark-color;
+        border-radius: 3px;
+        background-color: $accent-color;
+
+        h3 {
+            width: 12.5rem;
+            padding: 0.5rem;
+            font-size: 1em;
+            letter-spacing: 0.1em;
+            text-decoration: underline;
+            text-align: center;
+            border-radius: 0;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            &:first-child {
+                border-right: 1px solid $dark-color;
+            }
+        }
+    }
+}
+
+.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+form {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        margin: 0.2rem 0rem;
+        padding: 0.7rem;
+        letter-spacing: 1px;
+        color: $dark-color;
+        border: 1px solid $dark-color;
+        border-radius: 5px;
+
+        &:active,
+        &:focus {
+            background-color: rgba(247, 231, 207, 0.884);
+        }
+    }
+
+    .btn-send {
+        margin-top: 1rem;
+        padding: 0.5rem 0;
+        font-size: 1.1em;
+        border: 1px solid $dark-color;
+        border-radius: 3px;
+        color: $dark-color;
+        background-color: $accent-color;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $dark-color;
+            color: $primary-color;
+        }
+    }
+}
+
+
+// RESPONSIVE
+@media only screen and (max-width: 900px) {
+    .authorize {
+        flex-wrap: wrap;
+
+        .options {
+            width: 90vw;
+        }
+
+        form {
+            width: 90vw;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+        }
+    }
+}
