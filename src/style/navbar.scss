@@ -35,6 +35,12 @@ nav {
         }
     }
 
+    .nav-link-btn {
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
     .navbar-logo {
         display: flex;
         align-items: center;

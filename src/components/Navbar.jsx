@@ -37,7 +37,9 @@ export default function Navbar() {
                 <NavLink to="/membership" className="nav-link" activeclassname="active-link" onClick={closeMobileMenu}>Membership</NavLink>
                 <NavLink to="/contact" className="nav-link" activeclassname="active-link" onClick={closeMobileMenu}>Contact</NavLink>
             </div>
-            {button && <button className='btn-outline btn-small'>SIGN UP</button>}
+            {button &&
+                <NavLink to="/authorize" className="nav-link-btn btn btn-outline btn-small" activeclassname="active-link" onClick={closeMobileMenu}>SIGN UP</NavLink>
+            }
         </nav>
     )
 }
