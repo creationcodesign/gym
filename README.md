@@ -6,10 +6,10 @@ This responsive website is built with **React JS, SCSS** and deployed on **GitHu
 
 ## Preview
 
-<a href="https://versi-on.github.io/gym/">
+<a href="https://creationcodesign.github.io/gym/">
 <img src="./src/assets/gym-screenshot.jpg" style="border-radius:3px;" />
 </a>
 
 <!-- ![project screenshot](./src/assets/gym-screenshot.jpg) -->
 
-## [live demo](https://versi-on.github.io/gym/)
+## [live demo](https://creationcodesign.github.io/gym/)
